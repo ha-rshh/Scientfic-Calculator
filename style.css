@@ -1,5 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
 *{
-    box-sizing: border-box;
     margin: 0;
-    padding:0;
+    padding: 0;
+    box-sizing: border;
+}
+
+body{
+    background-color: gray;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+.container{
+    padding: 0.5rem;
+    min-width:350px;    
+    max-width: max-content;
+    height: 630px;
+    min-height: max-content;
+    background-color: black;
+    border-radius: 1.5rem;
+}
+.line{
+    border-top: 1px solid #50505098;
+    margin: 1rem;
+}
+.result{
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+    font-size: 4rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 1rem 0.5rem;
+    height: 30%;
+    color: white;
+}
+.buttons{
+    /* width: %; */
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+}
+
+
+.buttons button{
+    
+    width: 65px;    
+    height: 65px;
+    border: none;
+    font-size: 2rem;
+    margin: 0.3rem;
+    border-radius: 50%;
+}
+button:focus{
+    outline: 2px solid rgb(138, 138, 138);
+    transition: all 0.1s ease-out;
+}
+.fa-solid{
+    font-size: 1.6rem;
+}
+.item{
+    background-color: #505050;
+    color: #D4D4D4;
+}
+.item:hover{
+    cursor: pointer;
+}
+.item:active{
+    background-color: rgba(245, 245, 245, 0.233);
+}
+.gray{
+    background-color: #D4D4D4;
+    color: black;
+}
+.gray:active{
+    background-color: #aaaaaa;
+
+}
+.yellow{
+    background-color: #FF9500;
+    color: white;
+}
+.yellow:active{
+    background-color: #dd8202;
+    
+}
+.clear{
+    color: #ff0000b0;
 }
