@@ -58,7 +58,7 @@ body{
     border-radius: 50%;
 }
 button:focus{
-    outline: 2px solid rgb(138, 138, 138);
+    border: 1px solid rgb(138, 138, 138);
     transition: all 0.1s ease-out;
 }
 .fa-solid{
@@ -92,4 +92,7 @@ button:focus{
 }
 .clear{
     color: #ff0000b0;
+}
+
+.new{
 }
