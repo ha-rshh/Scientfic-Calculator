@@ -11,14 +11,15 @@
 <body>
     <div class="container">
         <div class="result">
-            <span id="result">0</span>
+            <div id="previous"></div>
+            <div id="current"></div>
         </div>
         <p class="line"></p>
         <div class="buttons">
             <button class="item gray clear">C</button>
-            <button class="item gray negative">+/-</button>
             <button class="item gray percent sign">%</button>
-            <button class="item yellow deleteIcon"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="item backSpace"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="item yellow sign">/</button>
             <button class="item number">7</button>
             <button class="item number">8</button>
             <button class="item number">9</button>
@@ -31,10 +32,10 @@
             <button class="item number">2</button>
             <button class="item number">3</button>
             <button class="item yellow sign plus">+</button>
-            <button class="item decimal">.</button>
+            <button class="item number decimal">.</button>
             <button class="item number itemZero">0</button>
-            <button class="item equals"> = </button>
-            <button class="item yellow switch"><i class="fa-solid fa-calculator"></i></button>
+            <button class="item switch"><i class="fa-solid fa-calculator"></i></button>
+            <button class="item equals yellow"> = </button>
         </div>
     </div>
     <script src="script.js"></script>
